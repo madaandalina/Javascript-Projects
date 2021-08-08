@@ -1,0 +1,35 @@
+.circle{
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    border-radius: 50%; /* the magic */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto 40px;
+    background-color: #53123a;  
+  }
+
+  .center{
+      width:400px;
+      height:100vh;
+      margin:auto;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .modify{
+      display:inline-block;
+      cursor:pointer;
+      transition:all 0.2s;
+  }
+  .modify:hover{
+      color:rgb(117, 95, 33);
+      transform: rotate(30deg);
+  }
