@@ -1,0 +1,38 @@
+.all{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.square {
+
+	height: 40vh;
+	width: 400px;
+	margin:auto;
+	position: relative;
+ 	background: coral;
+	text-align: center;
+	box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.33333);
+}
+
+.within {
+	position: relative;
+	top: 30%;
+	width: 100%;
+	padding: 1rem;
+	font-size: 5rem;
+}
+
+h1,h2{
+	text-align: center;
+}
+
+button{
+	border-radius: 15%;
+	border:1px solid grey;
+	background-color:burlywood;
+	margin-top:10%;
+
+}
+
+button:hover{
+	background-color:cornsilk;
+}
